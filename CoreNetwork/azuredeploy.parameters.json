@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "virtualNetworkName": {
+      "value": "CoreVnet"
+    },
+    "addressPrefix": {
+      "value": "10.0.0.0/16"
+    },
+    "FENSGName": {
+      "value": "FE_NSG"
+    },
+    "FESubnetPrefix": {
+      "value": "10.0.161.0/24"
+    },
+    "AppNSGName": {
+      "value": "App_NSG"
+    },
+    "AppSubnetPrefix": {
+      "value": "10.0.162.0/24"
+    },
+    "DBNSGName": {
+      "value": "DB_NSG"
+    },
+    "DBSubnetPrefix": {
+      "value": "10.0.163.0/24"
+    },
+    "DCNSGName": {
+      "value": "DC_NSG"
+    },
+    "DCSubnetPrefix": {
+      "value": "10.0.160.0/24"
+    }
+  } 
+}
