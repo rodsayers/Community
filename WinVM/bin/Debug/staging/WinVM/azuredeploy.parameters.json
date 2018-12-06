@@ -33,7 +33,7 @@
         "value": "CoreVnet"
       },
       "virtualNetworkResourceGroup": {
-        "value": "ARM-Bootcamp"
+        "value": "ARM-Bootcamp-new"
       },
       "subnetName": {
         "value": "FESubnet"
