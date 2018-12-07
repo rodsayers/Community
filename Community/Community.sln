@@ -7,6 +7,8 @@ Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "CoreNetwork", "..\CoreNetwo
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "WinVM", "..\WinVM\WinVM.deployproj", "{81DCC74D-EC51-4F43-BA97-665209623F58}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "Class1", "Class1\Class1.deployproj", "{8725F3DA-FE66-405E-B43E-0EB4971AA164}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{81DCC74D-EC51-4F43-BA97-665209623F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81DCC74D-EC51-4F43-BA97-665209623F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81DCC74D-EC51-4F43-BA97-665209623F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8725F3DA-FE66-405E-B43E-0EB4971AA164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8725F3DA-FE66-405E-B43E-0EB4971AA164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8725F3DA-FE66-405E-B43E-0EB4971AA164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8725F3DA-FE66-405E-B43E-0EB4971AA164}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

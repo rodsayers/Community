@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "capadmin"
+    },
+    "vmName": {
+      "value": "WinVM"
+    },
+    "adminPassword": {
+      "value": "Welcome12345"
+    },
+    "vmSize": {
+      "value": "Standard_A1_v2"
+    },
+    "numDataDisks": {
+      "value": 1
+    },
+    "sizeOfDataDisksInGB": {
+      "value": 100
+    },
+    "diskcaching": {
+      "value": "None"
+    },
+      "existingdiagnosticsStorageAccountName": {
+        "value": "mcdiag041880"
+      },
+      "existingdiagnosticsStorageResourceGroup": {
+        "value": "Diagnostics"
+      },
+      "virtualNetworkName": {
+        "value": "CoreVnet"
+      },
+      "virtualNetworkResourceGroup": {
+        "value": "ARM-Bootcamp-new"
+      },
+      "subnetName": {
+        "value": "FESubnet"
+      },
+      "asgName": {
+        "value": "DMZ_ASG"
+      }
+    }
+  }
