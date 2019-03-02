@@ -16,7 +16,7 @@
         {
             "type": "Microsoft.Compute/virtualMachines/extensions",
             "name": "[concat(parameters('vmName'), '/InsightAgentWindows')]",
-            "apiVersion": "2017-04-01",
+            "apiVersion": "2018-10-01",
             "location": "[parameters('location')]",
             "properties": {
                 "publisher": "Rapid7.InsightPlatform",
