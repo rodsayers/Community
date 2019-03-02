@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "configzip": {
+            "type": "SecureString"
+        },
+        "location": {
+            "type": "String"
+        },
+        "vmName": {
+            "type": "String"
+        }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.Compute/virtualMachines/extensions",
+            "name": "[concat(parameters('vmName'), '/InsightAgentWindows')]",
+            "apiVersion": "2017-04-01",
+            "location": "[parameters('location')]",
+            "properties": {
+                "publisher": "Rapid7.InsightPlatform",
+                "extension": "InsightAgentWindows",
+                "version": "2.*",
+                "parameters": {
+                    "private": {
+                        "configzip": "[parameters('configzip')]"
+                    }
+                }
+            }
+        }
+    ]
+}
